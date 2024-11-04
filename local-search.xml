@@ -5,33 +5,6 @@
   
   <entry>
     <title>自我介绍</title>
-    <link href="/2024/11/04/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
-    <url>/2024/11/04/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</url>
-    
-    <content type="html"><![CDATA[<h3 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客"></a>欢迎来到我的博客</h3><ul><li><p>这是我的个人博客平台，基于github和hexo构建。</p></li><li><p>在这里我会分享关于我的一切，学习笔记，日常点滴，情感经历等等（暂时写到这，后期再更新）</p></li><li><p>如果你想了解我，或者想看的我的code note，那么关注这个网站就对了</p></li><li><p>I will keep writing，thank you for your attention.</p></li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>own</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>博客</tag>
-      
-      <tag>个人介绍</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>自我介绍</title>
     <link href="/2024/11/04/English/test/"/>
     <url>/2024/11/04/English/test/</url>
     
@@ -59,10 +32,10 @@
   
   <entry>
     <title>自我介绍</title>
-    <link href="/2024/11/04/computer%20science/test/"/>
-    <url>/2024/11/04/computer%20science/test/</url>
+    <link href="/2024/11/04/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
+    <url>/2024/11/04/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</url>
     
-    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test1</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客"></a>欢迎来到我的博客</h3><ul><li><p>这是我的个人博客平台，基于github和hexo构建。</p></li><li><p>在这里我会分享关于我的一切，学习笔记，日常点滴，情感经历等等（暂时写到这，后期再更新）</p></li><li><p>如果你想了解我，或者想看的我的code note，那么关注这个网站就对了</p></li><li><p>I will keep writing，thank you for your attention.</p></li></ul>]]></content>
     
     
     <categories>
@@ -90,6 +63,33 @@
     <url>/2024/11/04/self-talking/test/</url>
     
     <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test3</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>own</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+      <tag>个人介绍</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>自我介绍</title>
+    <link href="/2024/11/04/computer%20science/test/"/>
+    <url>/2024/11/04/computer%20science/test/</url>
+    
+    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test1</p>]]></content>
     
     
     <categories>
