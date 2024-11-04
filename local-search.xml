@@ -5,33 +5,6 @@
   
   <entry>
     <title>自我介绍</title>
-    <link href="/2024/11/04/English/test/"/>
-    <url>/2024/11/04/English/test/</url>
-    
-    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test2</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>own</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>博客</tag>
-      
-      <tag>个人介绍</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>自我介绍</title>
     <link href="/2024/11/04/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
     <url>/2024/11/04/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</url>
     
@@ -59,10 +32,10 @@
   
   <entry>
     <title>自我介绍</title>
-    <link href="/2024/11/04/self-talking/test/"/>
-    <url>/2024/11/04/self-talking/test/</url>
+    <link href="/2024/11/04/English/test/"/>
+    <url>/2024/11/04/English/test/</url>
     
-    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test3</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test2</p>]]></content>
     
     
     <categories>
@@ -90,6 +63,33 @@
     <url>/2024/11/04/computer%20science/test/</url>
     
     <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test1</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>own</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+      <tag>个人介绍</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>自我介绍</title>
+    <link href="/2024/11/04/self-talking/test/"/>
+    <url>/2024/11/04/self-talking/test/</url>
+    
+    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test3</p>]]></content>
     
     
     <categories>
