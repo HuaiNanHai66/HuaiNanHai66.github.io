@@ -4,6 +4,60 @@
   
   
   <entry>
+    <title>英语从句</title>
+    <link href="/2024/11/06/English/%E8%8B%B1%E8%AF%AD%E4%BB%8E%E5%8F%A5/"/>
+    <url>/2024/11/06/English/%E8%8B%B1%E8%AF%AD%E4%BB%8E%E5%8F%A5/</url>
+    
+    <content type="html"><![CDATA[<h1 id="同位语从句"><a href="#同位语从句" class="headerlink" title="同位语从句"></a>同位语从句</h1><p>对主句的抽象名词进行解释说明。一般用 that 引导</p><p>抽象名词： new fact reason idea suggest </p><h2 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h2><p><strong>个人错误</strong></p><p>The fact is  i like you three years ago,</p><p><strong>原因：</strong>句子2个主语，不清晰 是the fact 还是 i ？ 动词时态不对。</p><p><strong>修正：</strong>逗号分隔，或者用同位语从句。</p><p>The fact is ,I liked you three years ago. </p><p><strong>正确：</strong></p><p>The fact that I liked you three years ago.</p><h2 id="解析"><a href="#解析" class="headerlink" title="解析"></a>解析</h2><p>对fact 实时进行解释说明。</p><h2 id="合集"><a href="#合集" class="headerlink" title="合集"></a>合集</h2><p>The suggestions is that the girl stand in center.</p><blockquote><p> The suggestion is that the girl stands in the center.</p></blockquote><p>I have a idea that I can swim in the pool</p><blockquote><p> I have an idea that I can swim in the pool.</p></blockquote><p>this is a new that a boy appear road.</p><blockquote><p> this is news that a boy appeared on the road.</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>英语</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>英语</tag>
+      
+      <tag>语法</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>本地关联远程</title>
+    <link href="/2024/11/06/computer%20science/git/%E6%9C%AC%E5%9C%B0%E5%85%B3%E8%81%94%E8%BF%9C%E7%A8%8B/"/>
+    <url>/2024/11/06/computer%20science/git/%E6%9C%AC%E5%9C%B0%E5%85%B3%E8%81%94%E8%BF%9C%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h1 id="本地关联远程"><a href="#本地关联远程" class="headerlink" title="本地关联远程"></a>本地关联远程</h1><h3 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h3><p>一般使用git remote add origin http:…..</p><p>关联本地仓库，之后先使用git pull origin master 拉取远程仓库，后面再进行add commit push等操作</p><h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>pull一般会出bug：远程与本地文件完全不一样，（一个相同的文件都没有），无法直接pull</p><p><img src="https://cdn.nlark.com/yuque/0/2023/png/39031443/1702451768901-26a1a955-a854-4955-b836-c871034e89f9.png" alt="img"></p><h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>可使用：<strong>git pull origin master –allow-unrelated-histories</strong> </p><p>强制拉取，之后就能push了。</p><h2 id="让-gitignore生效"><a href="#让-gitignore生效" class="headerlink" title="让.gitignore生效"></a>让.gitignore生效</h2><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><ul><li>使用git rm -rf –cached .</li></ul><p>这个命令可能会导致 Git 不再跟踪任何文件，你需要重新将需要跟踪的文件添加到索引中，然后提交这些更改。</p><ul><li><p>git add .</p></li><li><p>git commit  -m””</p></li></ul><h2 id="分支冲突："><a href="#分支冲突：" class="headerlink" title="分支冲突："></a>分支冲突：</h2><p>分支合并时有冲突风险：当两个分支同时处理一个文件（文件名相同）时，或者 远程代码提交与本地有冲突时。</p><h3 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h3><ol><li>拉取远程代码到本地： git pull –rebase origin master</li><li>列出未解决冲突文件：<code>git diff --name-only --diff-filter=U</code></li><li>此时同个文件不同提交有冲突。</li><li>将该文件生成的特殊字符删除掉保留最新的（想要的）部分</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2023/png/39031443/1702453484436-77088c36-0f54-4f50-9b8b-c7556ba52157.png" alt="img"></p><ol start="5"><li>再次add commit push该文件即可。</li><li>commit时会报错，加个-i参数就行或者执行  git rebase –continue&#x2F;&#x2F;继续提交代码</li></ol><p>  原因：此次编辑提交在上次的基础之上，重复执行：git rebase –continue就可</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>git</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+      <tag>git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>自我介绍</title>
     <link href="/2024/11/04/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
     <url>/2024/11/04/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</url>
@@ -31,38 +85,11 @@
   
   
   <entry>
-    <title>自我介绍</title>
-    <link href="/2024/11/04/computer%20science/test/"/>
-    <url>/2024/11/04/computer%20science/test/</url>
+    <title>碎碎念</title>
+    <link href="/2024/11/04/self-talking/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <url>/2024/11/04/self-talking/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
     
-    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test1</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>own</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>博客</tag>
-      
-      <tag>个人介绍</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>自我介绍</title>
-    <link href="/2024/11/04/self-talking/test/"/>
-    <url>/2024/11/04/self-talking/test/</url>
-    
-    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test3</p>]]></content>
+    <content type="html"><![CDATA[<ul><li><p>昨天就为你充了710点卷，虽然知道你不会玩不知去向，但你说好看，你刚才说小号想要还想要一个，爱你的我还是满心欢喜的把剩下的100元伙食费又给你充了710，然后看到你小号并没有买，而是你送给了你的一个弟弟，你对弟弟真好，好有爱心，我感觉对你陷得很深了</p></li><li><p>今天发工资了，我一个月工资3000，你猜我会给你多少，是不是觉得我会给你2500，自己留500吃饭？你想多了，我3000都给你，因为厂里包吃包住。</p></li><li><p>晚上和你聊天，10点钟不到，你就说“困了，去睡觉了”。现在凌晨1点钟，看到你给他的朋友圈点赞评论，约他明天去吃火锅，一定是你微信被盗了吧。</p></li><li><p>今天我观战了一天你和别人打游戏，你们玩的很开心；我给你发了200多条消息，你说没流量就不回；晚上发说说没有人爱你，我连滚带爬评论了句有“我在”，你把我拉黑了，我给你打电话也无人接听。对不起，我不该打扰你，我求求你再给我一次当好友的机会吧！</p></li></ul>]]></content>
     
     
     <categories>
@@ -74,9 +101,7 @@
     
     <tags>
       
-      <tag>博客</tag>
-      
-      <tag>个人介绍</tag>
+      <tag>碎碎念</tag>
       
     </tags>
     
@@ -85,11 +110,11 @@
   
   
   <entry>
-    <title>自我介绍</title>
-    <link href="/2024/11/04/English/test/"/>
-    <url>/2024/11/04/English/test/</url>
+    <title>Git 基本命令</title>
+    <link href="/2024/11/04/computer%20science/git/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/"/>
+    <url>/2024/11/04/computer%20science/git/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</url>
     
-    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2><p>test2</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-上传代码："><a href="#1-上传代码：" class="headerlink" title="1. 上传代码："></a>1. 上传代码：</h2><ol><li>Git add. (文件名或 . )</li><li>Git commit-m”备注内容”</li><li>Git push</li></ol><h2 id="2-添加分支："><a href="#2-添加分支：" class="headerlink" title="2. 添加分支："></a>2. 添加分支：</h2><ul><li>查看远近端分支： git branch -a</li><li>新建本地分支： git branch name</li><li>切换分支： git switch name</li></ul><p>【注意】：此时远端没有改分支，直接push会出事</p><p><strong>使用：</strong></p><p>用git push origin name   (这样远近端都有分支，和文件）</p><h2 id="3-删除分支"><a href="#3-删除分支" class="headerlink" title="3. 删除分支"></a>3. 删除分支</h2><ul><li>远： git push origin –delete name</li><li>近：git branch -D name</li></ul><h2 id="4-合并分支："><a href="#4-合并分支：" class="headerlink" title="4. 合并分支："></a>4. 合并分支：</h2><ul><li>Git merge （分支名） 将分支(分支名)合并到当前分支。</li></ul><h2 id="5-切换分支："><a href="#5-切换分支：" class="headerlink" title="5. 切换分支："></a>5. 切换分支：</h2><ul><li>Git checkout (分支名)</li></ul><h2 id="6-克隆代码："><a href="#6-克隆代码：" class="headerlink" title="6. 克隆代码："></a>6. 克隆代码：</h2><ul><li>Git clone url(http)</li></ul><h2 id="7-版本回滚："><a href="#7-版本回滚：" class="headerlink" title="7. 版本回滚："></a>7. 版本回滚：</h2><ol><li>查看版本信息： git log</li><li>版本回滚： Git reset – -hard （版本代码）</li></ol><h2 id="8-增删标签：（版本控制）"><a href="#8-增删标签：（版本控制）" class="headerlink" title="8. 增删标签：（版本控制）"></a>8. 增删标签：（版本控制）</h2><ul><li>查看：git tag</li><li>添加：git tag v1.0</li><li>删除：git tag -d v1.0 （本地</li><li>删除：git tag –delete origin v1.0 (远端</li></ul><p>在本地查看某版本文件：git checkout -b(分支，版本名)</p>]]></content>
     
     
     <categories>
